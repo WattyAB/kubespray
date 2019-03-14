@@ -16,7 +16,7 @@ bin_dir: /usr/local/bin
 
 
 ## External LB example config
-## apiserver_loadbalancer_domain_name: "elb.some.domain"
+apiserver_loadbalancer_domain_name: "k8s-lb-0.test.fra1.watty.io"
 loadbalancer_apiserver:
   address: 104.248.247.20
   port: 443
